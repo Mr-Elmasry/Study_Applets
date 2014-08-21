@@ -52,13 +52,13 @@ public class AppletDemo1 extends Applet {
     
     @Override
     public void update(Graphics g) {
-        super.update(g); //To change body of generated methods, choose Tools | Templates.
+        super.update(g); 
         System.out.println("Update");
     }
     
     @Override
     public void destroy() {
-        super.destroy(); //To change body of generated methods, choose Tools | Templates.
+        super.destroy();
         System.out.println("destroy");
     }
     
